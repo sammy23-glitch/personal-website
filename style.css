@@ -1,0 +1,169 @@
+body {
+    margin: o;
+    font-family: "Segoe UI",Arial, sans-serif;
+    background: rgb(170, 23, 228);/*  gray*/
+}
+/*Header*/
+header {
+    background: rgb(23, 228, 57);
+    color: white;
+    padding: 20px;
+    text-align: right;
+}
+/*navigation bar*/
+nav {
+    margin: top 10px;
+}
+    nav a {
+        margin: 0 12px;
+        text-decoration: none;
+        color: rgb(248, 6, 139);
+        font-weight: bold;
+}
+nav a:hover {
+    color: rgb(240, 233, 233);
+}
+/*main content sections*/
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(8, 8, 8, 0.966);
+}
+/*Headings*/
+h1 {
+    margin-bottom: 8px;
+}
+, h2 {
+    color:rgb(240, 1, 180)
+}
+/*paragraphs*/
+p {
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+}/*footer*/
+footer {
+    background: rgb(23, 228, 57);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*smooth animation*/
+sectioon {
+    animation:fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+   transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+body {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+body.loaded {
+    opacity: 1;
+}
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.877);
+}
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #5a2ea6;
+    margin-top: 20px;
+}
+
+/* Skills bars */
+
+.skill {
+    margin: 15px 0;
+}
+
+.bar {
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 15px;
+    background: #5a2ea6;
+    width: 0;
+    transition: width 1.5s;
+}
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+button {
+    background: #5a2ea6;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45207d;
+}
+.edu {
+    background: #f7f1ff;
+    padding: 20px;
+    border-left: 5px solid #5a2ea6;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.edu h3 {
+    color: #5a2ea6;
+}
+child {
+    background: #f7f1ff;
+    padding: 20px;
+    border-left: 5px solid #5a2ea6;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.child h3 {
+    color: #5a2ea6;
+}
+goal {
+    background: #f7f1ff;
+    padding: 20px;
+    border-left: 5px solid #5a2ea6;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.goal h3 {
+    color: #5a2ea6;
+}
+    ul {
+    line-height: 1.8;
+    color: #444;
+}
